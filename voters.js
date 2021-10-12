@@ -13,7 +13,7 @@ const voters = [
   { name: 'Zack', age: 19, voted: false },
 ];
 
-//Function to filter age
+//Filter age
 const filter = (age) => {
   if (age >= 18 && age <= 25){
     return 'Young';
@@ -26,7 +26,7 @@ const filter = (age) => {
   }
 };
 
-//Function to count votes
+//Count votes
 function getVoters(array){
   //Check if the person voted and then filter by age
   const getResults = voters.reduce((total, current) => {
