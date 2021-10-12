@@ -7,11 +7,11 @@ const people = [
   { name: "Bob Ziroll", age: 100 },
 ];
 
-function idade(people) {
+function age(people) {
   return people.filter(name => name.age >= 18);
 }
 
-var result = idade(people);
+var result = age(people);
 console.log(result);
 
 
