@@ -1,4 +1,4 @@
-//Classificação indicativa do filme Matrix: 18. Retornar os elementos cuja idade esteja acima ou igual à especificada. 
+//Classificação indicativa do filme Matrix: 18. Retornar os elementos cuja idade esteja acima ou igual a classificação indicativa. 
 const people = [
   { name: "Angelina Jolie", age: 80 },
   { name: "Eric Jones", age: 2 },
