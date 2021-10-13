@@ -18,15 +18,15 @@ console.log('Resultado:', result);
 
 function operations(operator, value1, value2){
   if (operator == "+") {
-      return parseInt(value1) + parseInt(value2);
+      return parseFloat(value1) + parseFloat(value2);
   } else if
       (operator == "-") {
-      return parseInt(value1) - parseInt(value2);
+      return parseFloat(value1) - parseFloat(value2);
   } else if
       (operator == "*") {
-      return parseInt(value1) * parseInt(value2);
+      return parseFloat(value1) * parseFloat(value2);
   } else if
       (operator == "/") {
-      return parseInt(value1) / parseInt(value2);
+      return parseFloat(value1) / parseFloat(value2);
   }
 }
