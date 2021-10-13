@@ -1,4 +1,4 @@
-//Classificação indicativa do filme Matrix: 18. Retornar na tela os elementos cuja idade seja acima ou igual à especificada. 
+//Classificação indicativa do filme Matrix: 18. Retornar os elementos cuja idade esteja acima ou igual a classificação indicativa. 
 const people = [
   { name: "Angelina Jolie", age: 80 },
   { name: "Eric Jones", age: 2 },
@@ -7,11 +7,11 @@ const people = [
   { name: "Bob Ziroll", age: 100 },
 ];
 
-function idade(people) {
+function age(people) {
   return people.filter(name => name.age >= 18);
 }
 
-var result = idade(people);
+var result = age(people);
 console.log(result);
 
 
