@@ -10,11 +10,11 @@ secondValue = prompt("Insira o segundo numero: \n");
   console.log("Não válido");
 }*/
 
-var list;
-var result = operations(op, firstValue, secondValue);
+let list = [];
+let result = operations(op, firstValue, secondValue);
 list.push(result);
 
-console.log('Resultado:', result);
+console.log('Resultado:', result, list);
 
 function operations(operator, value1, value2){
   if (operator == "+") {
