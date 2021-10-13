@@ -2,9 +2,9 @@ var firstValue
 var secondValue
 var op
 
-firstValue = prompt("Insira o primeiro numero: \n");
-op = prompt("Qual operacao deseja efetuar (+) (-) (*) (/)? : \n");
-secondValue = prompt("Insira o segundo numero: \n");
+firstValue = prompt("Primeiro valor: \n");
+op = prompt("Escolha um operador: +  -  *  /? \n");
+secondValue = prompt("Segundo valor: \n");
 
 /*if ((operator != "+") || (operator != "-") || (operator != "/") || (operator != "*")){
   console.log("Não válido");
