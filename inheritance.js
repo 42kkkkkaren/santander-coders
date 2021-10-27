@@ -10,26 +10,28 @@ class Person{
     return (${this.name} is ${this.age} yers old. They like ${this.interests});
   }
   greeting(){
-    return (Hi! I'm ${this.name});
+    return `Hi! I'm ${this.name}`
   }
 }
 
 //Class Teacher
-class Teacher{
-  Person.call(this, first, last, age, gender, interests);
+class Teacher extends Person{
+ constructor
+ (firstName, lastName, age, gender, interests, subject){
+    super(firstName, lastName, age, gender, interests);
 
   this.subject = subject;
 }
-
-Teacher.prototype.greeting = class Person{
-  alert('Hi! I\'m ' + this.name.first + '.');
-};
-
-//Class Student
-class Student{
-  Person.call(this, first, last, age, gender, interests);
+  greeting(){
+    return `Hello. My name is Mr./Mrs. ${this.name.lastName}, and I teach ${this.subject}.`;
 }
 
-Student.prototype.greeting = class Person{
-  alert('Hi! I\'m ' + this.name.first + '.');
-};
+//Class Student
+class Student extends Person{
+  constructor
+  (firstName, lastName, age, gender, interests, subject){
+    super(firstName, lastName, age, gender, interests);
+}
+greeting(){
+  return `Hi! I'm ${this.name.firstName}.`;
+}
